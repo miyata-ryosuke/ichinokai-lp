@@ -445,3 +445,6 @@ sup{font-size:.5em;vertical-align:super}
 .voice--short{grid-column:1 / -1;text-align:center;font-size:1.5rem;font-weight:700;color:var(--gold-dk);background:linear-gradient(135deg,#fff,var(--paper));border-color:var(--gold)}
 .voice--short::before{left:50%;transform:translateX(-50%)}
 @media(max-width:760px){.voices__list{grid-template-columns:1fr}.voice{font-size:1rem}}
+
+/* --- 会場写真 4枚（2×2） --- */
+.ph--venue{min-height:0;aspect-ratio:3/2}
