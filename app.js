@@ -30,7 +30,7 @@
 
   /* ---------- 3. スクロールでふわっと表示 ---------- */
   var targets = document.querySelectorAll(
-    ".section__head, .card, .awaji__media, .awaji__text, .giftedcode__figure, .giftedcode__text, .timeline__day, .venue__grid, .forwhom__list li, .outline__table, .faq details, .form, .host, .step, .decide__col, .yogen__text, .yogen__deco"
+    ".section__head, .card, .awaji__media, .awaji__text, .giftedcode__figure, .giftedcode__text, .timeline__day, .venue__grid, .forwhom__list li, .outline__table, .faq details, .form, .host, .voice, .step, .decide__col, .yogen__text, .yogen__deco"
   );
   targets.forEach(function (t) { t.classList.add("reveal"); });
   if ("IntersectionObserver" in window) {
